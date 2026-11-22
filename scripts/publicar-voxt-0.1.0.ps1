@@ -20,6 +20,9 @@ $product = @($catalog.products | Where-Object { $_.id -eq 'voxt' }) | Select-Obj
 if ($null -eq $product) { throw 'No se encuentra el producto voxt en el catálogo.' }
 $entry = @($product.releases | Where-Object { $_.version -eq '0.1.0' }) | Select-Object -First 1
 if ($null -eq $entry) { throw 'No se encuentra VOXT 0.1.0 en el catálogo.' }
+if ([string]$entry.legal_review -ne 'aprobada') {
+    throw 'PUBLICACIÓN BLOQUEADA: auditoría de licencias de VOXT 0.1.0 no aprobada. Consulta productos/voxt/AUDITORIA_LICENCIAS_0.1.0.md. -RevisionLicenciasConfirmada no evita este bloqueo.'
+}
 
 $source = [string]$product.source.repository
 $destination = 'tatxanka/Download'

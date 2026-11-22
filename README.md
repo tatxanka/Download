@@ -6,7 +6,7 @@ Repositorio público de **descarga de aplicaciones** desarrolladas en proyectos 
 
 | Aplicación | Plataforma | Modalidad | Primera versión | Estado |
 | --- | --- | --- | --- | --- |
-| **[VOXT](productos/voxt/README.md)** | Windows 11 x64 | Demo gratuita, aplicación portable | 0.1.0 | **Transferencia preparada; ZIP público pendiente de publicación** |
+| **[VOXT](productos/voxt/README.md)** | Windows 11 x64 | Demo gratuita, aplicación portable | 0.1.0 | **Publicación bloqueada por licencias de terceros** |
 
 **Sitio oficial de VOXT:** [voxt.site.je](https://voxt.site.je/) · [Descargas](https://voxt.site.je/?p=descargas) · [Ayuda](https://voxt.site.je/?p=ayuda) · [Guía en HTML](https://voxt.site.je/voxt-media/guia-voxt.html).
 
@@ -31,3 +31,5 @@ La descarga pública de VOXT, **una vez transferida y verificada**, aparecerá e
 Las versiones se adjuntan a **GitHub Releases**, no al historial Git del repositorio. El usuario final no necesita acceso a los repositorios privados de desarrollo. Cada publicación conserva el SHA-256 original, la plataforma y las instrucciones.
 
 **Licencias separadas:** los scripts y materiales originales de este catálogo se ofrecen bajo la [licencia MIT](LICENSE). **No concede licencia MIT al ejecutable VOXT ni a otros ZIP o assets de Releases.** Cada aplicación conserva su propia licencia y obligaciones con terceros; la redistribución pública exige revisión previa. Más información en [LICENCIAS.md](LICENCIAS.md) y [PUBLICACION.md](PUBLICACION.md).
+
+**Aviso de distribución:** el ZIP original de VOXT 0.1.0 todavía no está publicado aquí. Su auditoría binaria ha detectado DLL de x264/x265 que requieren resolver la redistribución; consulta [auditoría documentada](productos/voxt/AUDITORIA_LICENCIAS_0.1.0.md). No publicaremos la copia hasta subsanar o acreditar su cumplimiento.

@@ -18,7 +18,7 @@
           "version": "0.1.0",
           "public_tag": "voxt-v0.1.0",
           "public_release_url": "https://github.com/tatxanka/Download/releases/tag/voxt-v0.1.0",
-          "state": "pendiente_subida_publica",
+          "state": "bloqueada_licencias",
           "distribution": "demo_gratuita",
           "origin_tag": "v0.1.0",
           "origin_commit": "2697e19eedb96603f0b6eba1c5252451de2c7c21",
@@ -38,7 +38,7 @@
             }
           ],
           "notes": "productos/voxt/v0.1.0.md",
-          "legal_review": "pendiente_confirmacion_para_distribucion_publica"
+          "legal_review": "bloqueada_licencias_copyleft_x264_x265_sin_resolver"
         }
       ]
     }

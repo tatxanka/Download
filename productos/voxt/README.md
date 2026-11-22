@@ -28,3 +28,5 @@ El historial y las preferencias personales se guardan fuera del ZIP en `%LOCALAP
 La demo es una distribución gratuita, no una declaración de que VOXT sea código abierto. La [licencia MIT del catálogo](../../LICENSE) cubre los materiales propios de Download, **no** el ejecutable. Los términos aplicables al programa y las obligaciones de sus componentes requieren revisión antes de publicar el ZIP; consulta [LICENCIAS.md](../../LICENCIAS.md).
 
 **Accesos oficiales:** [VOXT AI](https://voxt.site.je/) · [Descargas en la web](https://voxt.site.je/?p=descargas) · [Ayuda](https://voxt.site.je/?p=ayuda). La página de la web aún refleja la candidata rc1; se documenta su corrección en [PUBLICACION.md](../../PUBLICACION.md).
+
+**Estado de disponibilidad (22/11/2026):** descarga pública de VOXT 0.1.0 bloqueada mientras se revisan bibliotecas x264/x265 incluidas en el ZIP. [Ver auditoría](AUDITORIA_LICENCIAS_0.1.0.md). La versión privada y la aprobación funcional no cambian.

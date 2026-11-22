@@ -21,3 +21,9 @@ Al publicar, registrar aquí la fecha efectiva, la URL final, el resultado de la
 - Se ha confirmado el dominio oficial **https://voxt.site.je/** y corregido el error editorial anterior **https://voxt.sites.je/** en todas las referencias de Download. En la web de descargas sigue apareciendo una candidata `rc1`, pendiente de actualización en el alojamiento.
 - El catálogo y sus scripts originales pasan a **MIT**; la licencia GPL-2.0 del commit de creación permanece en el historial de Git, pero no se proyecta sobre los ZIPs de aplicaciones. Los ejecutables requieren términos propios y cumplimiento de licencias de terceros. Ver [LICENSE](LICENSE), [LICENCIAS.md](LICENCIAS.md) y [PUBLICACION.md](PUBLICACION.md).
 - Sin cambios de binario: la release pública de VOXT continúa **pendiente de transferencia y verificación**.
+
+## 22/11/2026 · Auditoría binaria de VOXT 0.1.0
+
+- **Estado de publicación: BLOQUEADA POR LICENCIAS**, no sustituye la aprobación funcional ni elimina el historial previo.
+- Se descargó y comprobó el ZIP original SHA-256 `7bb3359f39559c16a3eaa67a41288911a07d404847d0fc0eff95a52d4153e5f9` (339130148 bytes). El paquete contiene las bibliotecas `libx264` y `libx265` en `_internal/av.libs`. La composición de FFmpeg/PyAV y los avisos correspondientes deben revisarse antes de permitir redistribución pública.
+- Informe detallado: [auditoría de terceros de VOXT 0.1.0](productos/voxt/AUDITORIA_LICENCIAS_0.1.0.md). La release privada original se conserva; `Download` no ha publicado el ZIP.
