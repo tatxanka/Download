@@ -8,7 +8,9 @@ Repositorio público de **descarga de aplicaciones** desarrolladas en proyectos 
 | --- | --- | --- | --- | --- |
 | **[VOXT](productos/voxt/README.md)** | Windows 11 x64 | Demo gratuita, aplicación portable | 0.1.0 | **Transferencia preparada; ZIP público pendiente de publicación** |
 
-Sitio de VOXT: **https://voxt.sites.je/** (enlace aportado por el propietario; la web se administra por separado).
+**Sitio oficial de VOXT:** [voxt.site.je](https://voxt.site.je/) · [Descargas](https://voxt.site.je/?p=descargas) · [Ayuda](https://voxt.site.je/?p=ayuda) · [Guía en HTML](https://voxt.site.je/voxt-media/guia-voxt.html).
+
+La página de descargas se verificó mediante una pestaña abierta el 22/11/2026. Todavía muestra la candidata `0.1.0-rc1`, el SHA-256 de la candidata y «Solicitar acceso»; [PUBLICACION.md](PUBLICACION.md) registra la actualización web pendiente. No presentar el enlace público de GitHub como operativo hasta verificar los assets reales.
 
 La descarga pública de VOXT, **una vez transferida y verificada**, aparecerá en:
 [GitHub Releases · VOXT 0.1.0](https://github.com/tatxanka/Download/releases/tag/voxt-v0.1.0).
@@ -28,4 +30,4 @@ La descarga pública de VOXT, **una vez transferida y verificada**, aparecerá e
 
 Las versiones se adjuntan a **GitHub Releases**, no al historial Git del repositorio. El usuario final no necesita acceso a los repositorios privados de desarrollo. Cada publicación conserva el SHA-256 original, la plataforma y las instrucciones.
 
-**Descarga gratuita no equivale a código abierto ni a ausencia de obligaciones de licencia.** El archivo `LICENSE` existente en este repositorio es GPL-2.0; su alcance sobre este catálogo y sobre eventuales materiales propios debe aclararse antes de anunciar licencias de las aplicaciones. Ninguna ficha otorga por sí sola una licencia a los binarios que no haya sido declarada expresamente por sus titulares. Consulta [PUBLICACION.md](PUBLICACION.md).
+**Licencias separadas:** los scripts y materiales originales de este catálogo se ofrecen bajo la [licencia MIT](LICENSE). **No concede licencia MIT al ejecutable VOXT ni a otros ZIP o assets de Releases.** Cada aplicación conserva su propia licencia y obligaciones con terceros; la redistribución pública exige revisión previa. Más información en [LICENCIAS.md](LICENCIAS.md) y [PUBLICACION.md](PUBLICACION.md).

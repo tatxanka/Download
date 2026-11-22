@@ -2,7 +2,7 @@
 
 **VOXT** es un chat de escritorio accesible con modelos locales gestionados por Ollama. Permite trabajar con mensajes extensos, Markdown y bloques de código sin depender del ratón para dictar.
 
-**Sitio:** https://voxt.sites.je/  
+**Sitio:** https://voxt.site.je/  
 **Primera versión:** 0.1.0 · Windows 11 x64 · ZIP portable  
 **Estado en Download:** transferencia pública preparada; comprobar si ya existe la [release pública](https://github.com/tatxanka/Download/releases/tag/voxt-v0.1.0) antes de enlazarla desde la web.
 
@@ -25,4 +25,6 @@ El historial y las preferencias personales se guardan fuera del ZIP en `%LOCALAP
 
 [Notas de VOXT 0.1.0](v0.1.0.md) · [Historial del catálogo](../../HISTORIAL.md) · [Política de publicación](../../PUBLICACION.md).
 
-La descarga gratuita no implica necesariamente publicación del código fuente. La licencia del ejecutable y sus componentes debe revisarse antes de una distribución pública; el archivo GPL-2.0 del repositorio Download no resuelve automáticamente esa cuestión.
+La demo es una distribución gratuita, no una declaración de que VOXT sea código abierto. La [licencia MIT del catálogo](../../LICENSE) cubre los materiales propios de Download, **no** el ejecutable. Los términos aplicables al programa y las obligaciones de sus componentes requieren revisión antes de publicar el ZIP; consulta [LICENCIAS.md](../../LICENCIAS.md).
+
+**Accesos oficiales:** [VOXT AI](https://voxt.site.je/) · [Descargas en la web](https://voxt.site.je/?p=descargas) · [Ayuda](https://voxt.site.je/?p=ayuda). La página de la web aún refleja la candidata rc1; se documenta su corrección en [PUBLICACION.md](../../PUBLICACION.md).

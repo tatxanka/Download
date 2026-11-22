@@ -15,3 +15,9 @@ Este registro describe las **publicaciones en tatxanka/Download**, no el histori
 - **Pendientes antes de dar por publicada:** transferencia binaria, comprobación de integridad, revisión de licencias para distribución pública y verificación de enlace sin autenticación.
 
 Al publicar, registrar aquí la fecha efectiva, la URL final, el resultado de la descarga pública, el hash comprobado y cualquier incidencia. Mantener las entradas históricas, incluidas las preparaciones que precedieron a la publicación.
+
+## Corrección editorial y licencia del catálogo · 22/11/2026
+
+- Se ha confirmado el dominio oficial **https://voxt.site.je/** y corregido el error editorial anterior **https://voxt.sites.je/** en todas las referencias de Download. En la web de descargas sigue apareciendo una candidata `rc1`, pendiente de actualización en el alojamiento.
+- El catálogo y sus scripts originales pasan a **MIT**; la licencia GPL-2.0 del commit de creación permanece en el historial de Git, pero no se proyecta sobre los ZIPs de aplicaciones. Los ejecutables requieren términos propios y cumplimiento de licencias de terceros. Ver [LICENSE](LICENSE), [LICENCIAS.md](LICENCIAS.md) y [PUBLICACION.md](PUBLICACION.md).
+- Sin cambios de binario: la release pública de VOXT continúa **pendiente de transferencia y verificación**.

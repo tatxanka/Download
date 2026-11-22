@@ -6,7 +6,7 @@
     {
       "id": "voxt",
       "title": "VOXT",
-      "website": "https://voxt.sites.je",
+      "website": "https://voxt.site.je",
       "summary": "Chat accesible con Ollama local, dictado Whisper opcional y lectura por voz.",
       "platform": "Windows 11 x64",
       "source": {
