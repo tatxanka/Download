@@ -1,0 +1,39 @@
+name: Registrar release pública verificada
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  catalogar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener catálogo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Leer release pública desde GitHub
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PUBLIC_TAG: ${{ github.event.release.tag_name }}
+        run: gh api "repos/$GITHUB_REPOSITORY/releases/tags/$PUBLIC_TAG" > release.json
+
+      - name: Comprobar assets y actualizar catálogo
+        run: python3 scripts/registrar_publicacion.py release.json
+
+      - name: Registrar en main sin alterar los tags existentes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md catalogo.json HISTORIAL.md productos/
+          if git diff --cached --quiet; then
+            echo "Historial ya actualizado."
+          else
+            git commit -m "docs: registrar publicación pública ${{ github.event.release.tag_name }}"
+            git push origin HEAD:main
+          fi
