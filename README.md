@@ -6,16 +6,13 @@ Repositorio público de **descarga de aplicaciones** desarrolladas en proyectos 
 
 | Aplicación | Plataforma | Modalidad | Primera versión | Estado |
 | --- | --- | --- | --- | --- |
-| **[VOXT](productos/voxt/README.md)** | Windows 11 x64 | Demo gratuita, aplicación portable | 0.1.0 | **Publicación bloqueada por licencias de terceros** |
+| **[VOXT](productos/voxt/README.md)** | Windows 11 x64 | Portable de uso gratuito | 0.1.0 | **[0.1.1 publicada](https://github.com/tatxanka/Download/releases/tag/voxt-v0.1.1)** |
 
 **Sitio oficial de VOXT:** [voxt.site.je](https://voxt.site.je/) · [Descargas](https://voxt.site.je/?p=descargas) · [Ayuda](https://voxt.site.je/?p=ayuda) · [Guía en HTML](https://voxt.site.je/voxt-media/guia-voxt.html).
 
-La página de descargas se verificó mediante una pestaña abierta el 22/11/2026. Todavía muestra la candidata `0.1.0-rc1`, el SHA-256 de la candidata y «Solicitar acceso»; [PUBLICACION.md](PUBLICACION.md) registra la actualización web pendiente. No presentar el enlace público de GitHub como operativo hasta verificar los assets reales.
+La página de descargas se verificó mediante una pestaña abierta el 22/11/2026. En esa revisión mostraba la candidata `0.1.0-rc1`. [PUBLICACION.md](PUBLICACION.md) conserva el registro de la actualización web pendiente.
 
-La descarga pública de VOXT, **una vez transferida y verificada**, aparecerá en:
-[GitHub Releases · VOXT 0.1.0](https://github.com/tatxanka/Download/releases/tag/voxt-v0.1.0).
-
-> **Importante:** hasta que GitHub muestre el ZIP en esa release, no hay todavía una descarga pública. No confundir el enlace original de un repositorio privado con una descarga abierta.
+Descarga pública verificada de [VOXT 0.1.1 para Windows](https://github.com/tatxanka/Download/releases/tag/voxt-v0.1.1). La release incluye el ZIP, su SHA-256, las fuentes Qt y los avisos de licencia.
 
 ## Cómo está organizado
 

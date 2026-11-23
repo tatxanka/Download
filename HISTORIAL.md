@@ -5,6 +5,7 @@ Este registro describe las **publicaciones en tatxanka/Download**, no el histori
 | Fecha | Producto | Versión | Estado público | Archivo | Origen |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-22 | VOXT | 0.1.0 | **Preparada; pendiente de adjuntar a Release pública** | `VOXT-0.1.0-win-x64.zip` | `tatxanka/Voxt` (privado), tag `v0.1.0` |
+| 2026-11-23 | VOXT | 0.1.1 | **Publicada y verificada** | `VOXT-0.1.1-win-x64.zip` | `tatxanka/Voxt` (privado), tag `v0.1.1` |
 
 ## VOXT 0.1.0 — primera entrada
 
@@ -35,4 +36,4 @@ Al publicar, registrar aquí la fecha efectiva, la URL final, el resultado de la
 - Descarga: [voxt-v0.1.1](https://github.com/tatxanka/Download/releases/tag/voxt-v0.1.1).
 - ZIP original: `VOXT-0.1.1-win-x64.zip`, SHA-256 `3567273a5bf28b51fe4944aaa98c53839594c4ceddb6b0effcd2bd91f9700ec1`.
 - Procedencia: `tatxanka/Voxt` (privado), release `v0.1.1`, commit `a25919bf1eb3a7ef9c1738cd27777a9692ae344a`.
-- Registro automático a partir de los metadatos de GitHub Releases; el fichero publicado fue validado contra el manifiesto.
+- Registro automático a partir de los metadatos de GitHub Releases; el fichero publicado fue validado contra el manifiesto. Se descargaron sin autenticación los 15 adjuntos y se verificaron sus tamaños y SHA-256. El ZIP y el archivo de avisos pasaron la comprobación CRC.
