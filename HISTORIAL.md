@@ -27,3 +27,12 @@ Al publicar, registrar aquí la fecha efectiva, la URL final, el resultado de la
 - **Estado de publicación: BLOQUEADA POR LICENCIAS**, no sustituye la aprobación funcional ni elimina el historial previo.
 - Se descargó y comprobó el ZIP original SHA-256 `7bb3359f39559c16a3eaa67a41288911a07d404847d0fc0eff95a52d4153e5f9` (339130148 bytes). El paquete contiene las bibliotecas `libx264` y `libx265` en `_internal/av.libs`. La composición de FFmpeg/PyAV y los avisos correspondientes deben revisarse antes de permitir redistribución pública.
 - Informe detallado: [auditoría de terceros de VOXT 0.1.0](productos/voxt/AUDITORIA_LICENCIAS_0.1.0.md). La release privada original se conserva; `Download` no ha publicado el ZIP.
+
+## Confirmación pública · VOXT 0.1.1
+
+<!-- release-publicada:voxt-v0.1.1 -->
+- Fecha: **2026-11-23**. Estado: **PUBLICADA**.
+- Descarga: [voxt-v0.1.1](https://github.com/tatxanka/Download/releases/tag/voxt-v0.1.1).
+- ZIP original: `VOXT-0.1.1-win-x64.zip`, SHA-256 `3567273a5bf28b51fe4944aaa98c53839594c4ceddb6b0effcd2bd91f9700ec1`.
+- Procedencia: `tatxanka/Voxt` (privado), release `v0.1.1`, commit `a25919bf1eb3a7ef9c1738cd27777a9692ae344a`.
+- Registro automático a partir de los metadatos de GitHub Releases; el fichero publicado fue validado contra el manifiesto.

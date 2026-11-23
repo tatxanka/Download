@@ -44,13 +44,13 @@
           "version": "0.1.1",
           "public_tag": "voxt-v0.1.1",
           "public_release_url": "https://github.com/tatxanka/Download/releases/tag/voxt-v0.1.1",
-          "state": "pendiente_subida_publica",
+          "state": "publicada",
           "distribution": "uso_gratuito",
           "origin_tag": "v0.1.1",
           "origin_commit": "a25919bf1eb3a7ef9c1738cd27777a9692ae344a",
           "origin_ci_run": "45137476520",
           "approved_owner_date": "2026-11-23",
-          "public_published_date": null,
+          "public_published_date": "2026-11-23",
           "binaries": [
             {
               "filename": "VOXT-0.1.1-win-x64.zip",
