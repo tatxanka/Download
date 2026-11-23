@@ -37,6 +37,8 @@ def main() -> None:
     if len(matches) != 1:
         raise ValueError("El tag no corresponde exactamente a una versión registrada")
     product, item = matches[0]
+    if item["state"].startswith("bloqueada") or item["legal_review"].startswith("bloqueada"):
+        raise ValueError(f"La distribución de {tag} sigue bloqueada")
     assets = {asset["name"]: asset for asset in published.get("assets", [])}
     for expected in item["binaries"]:
         asset = assets.get(expected["filename"])

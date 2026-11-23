@@ -39,6 +39,97 @@
           ],
           "notes": "productos/voxt/v0.1.0.md",
           "legal_review": "bloqueada_licencias_copyleft_x264_x265_sin_resolver"
+        },
+        {
+          "version": "0.1.1",
+          "public_tag": "voxt-v0.1.1",
+          "public_release_url": "https://github.com/tatxanka/Download/releases/tag/voxt-v0.1.1",
+          "state": "pendiente_subida_publica",
+          "distribution": "uso_gratuito",
+          "origin_tag": "v0.1.1",
+          "origin_commit": "a25919bf1eb3a7ef9c1738cd27777a9692ae344a",
+          "origin_ci_run": "45137476520",
+          "approved_owner_date": "2026-11-23",
+          "public_published_date": null,
+          "binaries": [
+            {
+              "filename": "VOXT-0.1.1-win-x64.zip",
+              "bytes": 220729344,
+              "sha256": "3567273a5bf28b51fe4944aaa98c53839594c4ceddb6b0effcd2bd91f9700ec1"
+            },
+            {
+              "filename": "VOXT-0.1.1-win-x64.sha256",
+              "bytes": 90,
+              "sha256": "50f180067074f3347e81d73e73174ba4910761999b6dc082e7e992fb1302a144"
+            },
+            {
+              "filename": "VOXT-0.1.1-avisos-y-licencias.zip",
+              "bytes": 911396,
+              "sha256": "f7f8e367f2a71ad22ebdada1a5ab7daa68ca38e59f14589d9157575dd5066b6d"
+            },
+            {
+              "filename": "pyside-setup-everywhere-src-6.10.2.tar.xz",
+              "bytes": 17877708,
+              "sha256": "05eec38bb71bffff8860786e3c0766cc4b86affc72439bd246c54889bdcb7400"
+            },
+            {
+              "filename": "qtbase-everywhere-src-6.10.2.tar.xz",
+              "bytes": 50374380,
+              "sha256": "aeb78d29291a2b5fd53cb55950f8f5065b4978c25fb1d77f627d695ab9adf21e"
+            },
+            {
+              "filename": "qtdeclarative-everywhere-src-6.10.2.tar.xz",
+              "bytes": 38060952,
+              "sha256": "a249914ff66cdcdbf0df8b5ffad997a2ee6dce01cc17d43c6cc56fdc1d0f4b0f"
+            },
+            {
+              "filename": "qtimageformats-everywhere-src-6.10.2.tar.xz",
+              "bytes": 2032388,
+              "sha256": "8b8f9c718638081e7b3c000e7f31910140b1202a98e98df5d1b496fe6f639d67"
+            },
+            {
+              "filename": "qtmultimedia-everywhere-src-6.10.2.tar.xz",
+              "bytes": 9907852,
+              "sha256": "93f7ef0106fbd731165a2723f3e436c911fc5e6880f5bc987b55516c20833e2b"
+            },
+            {
+              "filename": "qtpositioning-everywhere-src-6.10.2.tar.xz",
+              "bytes": 648904,
+              "sha256": "7051fa64477c66769840cad396fc3772a01ba5516363c8842a7a513fa0c4cdce"
+            },
+            {
+              "filename": "qtserialport-everywhere-src-6.10.2.tar.xz",
+              "bytes": 263996,
+              "sha256": "b40cbf29da111ffa8fee7e7cb44b9097042782cd17a10448a83ff3156cdebd6b"
+            },
+            {
+              "filename": "qtshadertools-everywhere-src-6.10.2.tar.xz",
+              "bytes": 1152340,
+              "sha256": "18d9dbbc4f7e6e96e6ed89a9965dc032e2b58158b65156c035537826216716c9"
+            },
+            {
+              "filename": "qtspeech-everywhere-src-6.10.2.tar.xz",
+              "bytes": 248028,
+              "sha256": "d937f6c715792b0d8f036e94513ebfc8def6b988a65f3ff30a7f4a8cc1263014"
+            },
+            {
+              "filename": "qtsvg-everywhere-src-6.10.2.tar.xz",
+              "bytes": 2614740,
+              "sha256": "f07ff80f38caf235187200345392ca7479445ddf49a36c3694cd52a735dad6e1"
+            },
+            {
+              "filename": "qtwebchannel-everywhere-src-6.10.2.tar.xz",
+              "bytes": 194076,
+              "sha256": "e31ea59f8e19e0374d54fdc7a8479c840acffc4ba5297ee43564b5158a4f2c27"
+            },
+            {
+              "filename": "qtwebengine-everywhere-src-6.10.2.tar.xz",
+              "bytes": 881342592,
+              "sha256": "856eddf292a69a88618567deea67711b4ec720e69bcb575ed7bb539c9023961e"
+            }
+          ],
+          "notes": "productos/voxt/v0.1.1.md",
+          "legal_review": "gate_de_distribucion_superado"
         }
       ]
     }
